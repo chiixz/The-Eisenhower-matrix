@@ -4,13 +4,13 @@ body {
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.about {
+.section-about {
    width: 500px;
    margin: 0 auto;
    display: block;
    text-align: right;
 }
-.about img {
+.section-about img {
   width: 100%;
 }
 .more-info {
@@ -18,11 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-  .about { 
+  .section-about { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.section-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.row-wrapper {
   display: flex;
 }
 ul {
