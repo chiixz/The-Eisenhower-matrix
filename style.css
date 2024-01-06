@@ -22,10 +22,10 @@ button{
   display: block;
   text-align: right;
 }
-.section-about .about-img {
+.section-about .about__img {
   width: 100%;
 }
-.more-info {
+.about__info {
   font-family: "Fantasy";
 }
 
